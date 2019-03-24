@@ -1,12 +1,12 @@
 # ZABBIX监控系统资料
 ztools是个人改进的zabbix数据获取脚本。
 # SPEC文件和CentOS6一键安装包：
-Name:zabbix-Cent-OS-6
-Version:1.0.0
+Name:zabbix-Cent-OS-6		
+Version:1.0.0	
 Release:1
-Summary:zabbix install
-Group:Monitor
-License:GPL
+Summary:zabbix install	
+Group:Monitor		
+License:GPL	
 Prefix:/usr/local
 Source1:zabbix_agent
 %description
@@ -62,6 +62,7 @@ userdel -r zabbix
 sed -i "/^zabbix/d" /etc/sudoers
 rm -rf /etc/init.d/zabbix_agentd
 echo "zabbix uninstalled successfully!"
+
 
 
 # 打包之后zabbix监控客户端安装包：
