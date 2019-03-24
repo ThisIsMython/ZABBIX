@@ -63,5 +63,6 @@ sed -i "/^zabbix/d" /etc/sudoers
 rm -rf /etc/init.d/zabbix_agentd
 echo "zabbix uninstalled successfully!"
 
+
 # 打包之后zabbix监控客户端安装包：
 zabbixzabbix-Cent-OS-6-1.0.0-1.i686.rpm
