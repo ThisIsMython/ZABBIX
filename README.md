@@ -1,4 +1,4 @@
-<font size=5>ZABBIX监控系统资料</font>
+<font size=5># ZABBIX监控系统资料</font>
 > ztools为改进的zabbix数据获取脚本。
 # 客户端rpm包之SPEC文件
 > 打包详情请查看spec文件内容。
