@@ -1,5 +1,5 @@
 # ZABBIX监控系统资料
-> ztools为改进的zabbix数据获取脚本。
+> ztools是改进的zabbix数据增删该查以及批量导入的脚本。
 # 客户端rpm包之SPEC文件
 > 打包详情请查看spec文件内容。
 # 打包之后zabbix监控客户端安装包
